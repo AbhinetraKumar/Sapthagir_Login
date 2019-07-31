@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>SignUp</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+    </style>
+</head>
+
+<body class="container-fluid">
+    <center> <img class="img-fluid" style="width: 200px" id="logo" src="img/scelogo.png"><br><br><br>
+    <div>
+    <form>
+        <strong>Name:</strong> <br>
+        <input class="text-center form-control" id="first" type="text" placeholder="First"><br>
+        <input id="middle" class="text-center form-control" type="text" placeholder="Middle"><br>
+        <input id="last" type="text" class="text-center form-control" placeholder="Last"><br><br>
+        <strong>E-mail ID:</strong><br>
+        <input id="e2" class="text-center form-control" type="email" placeholder="example@gmail.com"><br><br>
+        <strong>Password:</strong><br>
+        <input class="text-center form-control" id="pass1" type="password"><br><br>
+        <strong>Confirm Password:</strong><br>
+        <input class="text-center form-control" id="pass2" type="password"><br><br>
+        <strong>Gender:</strong>
+        <input type="radio" name="gender" checked>Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Other <br><br>
+
+        <input class="btn btn-outline-dark" id="sub" type="button" value="Submit" onclick="subform();">
+
+        <input class="btn btn-outline-warning" id="res" type="reset" Value="Reset"><br>
+        <br>
+        <center><a class="btn btn-block" href="index.html"> <input class="btn btn-block btn-danger" id="can" type="button" value="Cancel"></a></center>
+
+    </form>
+    </div>
+    </center>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/jq.js"></script>
+</body>
+</html>
